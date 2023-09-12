@@ -35,7 +35,7 @@ gsap.from("#new h5",{
  })
  var btn2 = document.querySelector("#nav3 :nth-child(2)")
  btn2.addEventListener("click",function(){
-    window.open("")
+    window.open("https://github.com/Prathamsingh4")
  })
  var btn3 = document.querySelector("#nav3 :nth-child(3)")
  btn3.addEventListener("click",function(){

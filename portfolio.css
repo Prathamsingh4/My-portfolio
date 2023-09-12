@@ -271,7 +271,7 @@ input {
     padding-left: 10px;
     text-transform: capitalize;
     background-color: #f8f5f5;
-    color: white;
+    color: rgb(7, 6, 6);
 }
 form button{
     height: 40px;
@@ -347,3 +347,59 @@ form button:hover{
     color: #c8b465;
     
  }
+ #skills{
+    height: 100%;
+    width: 100%;
+    background-color: #040101;
+    position: relative;
+ }
+ #skills h2 {
+    color: white;
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    font-size: 80px;
+ }
+ #skills h3 {
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: 40px;
+ }
+ 
+#si{
+    display: flex;
+    gap: 40px;
+  position: absolute;
+  top:50%;
+  left: 10%;
+}
+#si img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    background-color: white;
+    padding:5px ;
+    border-radius: 7px;
+}
+#si :nth-child(4){
+    height: 100px;
+    width: 170px;
+}#si :nth-child(5){
+    height: 100px;
+    width: 140px;
+}
+#skills h4 {
+    font-size: 28px;
+    color: white;
+    border: 1.5px solid white;
+    height: 60px;
+    width: 250px;
+    padding: 14px 34px;
+    border-radius: 10px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    
+}
